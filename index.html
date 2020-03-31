@@ -137,8 +137,16 @@
 		color:#24C388;
 		font-weight:bold;
 	}
+	a{
+		text-decoration: none;
+		 color:white;
+	}
+	.a:after {
+	  content: '';
+	  color:white;
+	}
 	
-	a {
+	.a {
 	text-decoration: none;
 
 		color:black;
@@ -146,7 +154,7 @@
 	
 	}
 
-	a:after {
+	.a:after {
 	  content: '';
 	width: 0px;
 	  height: 2px;
@@ -155,7 +163,7 @@
 	  transition: 300ms;
 	}
 
-	a:hover:after {
+	.a:hover:after {
 	width: 100%;
 	}
 	
@@ -240,9 +248,9 @@
   <span style="font-size:0.6em;color:#bbb; display:fixed"> ※본 사이트는 실존하는 인물, 지명, 단체와 아무 상관 없습니다</span>
 
 	<ul>
-	  <li id="logo"><a href="#" class="wf">WINY</a></li>
-	<li><a href="#2nd"> DAY WITH WINY</a></li>
-	<li><a href="#shop">SHOP</a></li>	
+	 <li id="logo"><a href="#" class="a wf" style="		color:#24C388;">WINY</a></li>
+	<li><a href="#2nd" class="a"> DAY WITH WINY</a></li>
+	<li><a href="#shop"  class="a">SHOP</a></li>	
 	</ul>
 	
 </div>
@@ -349,10 +357,12 @@
 		<div class="tw" style="height:100%; position:absolute; top:10;left:0; background-image:url('last.png'); background-size:contain;background-color:rgba(255,255,255,0.3);">
 			
 			<div style="height:100%; color:white; font-size:30px;line-height:3em; text-align:right;padding-right:20%; " class="cell"  data-aos="fade-up"  data-aos-duration="1500">
+			당신을 기다리고 있습니다.
 			<h2>지금 당장 만나보세요</h2>
-			<span style="border:2px solid white; border-radius: 10px; padding:1em; background-color:rgba(255,255,255,0.3) ">
+			<a href="https://twitter.com/neverland__49" > <span style="border:2px solid white; border-radius: 10px; padding:1em; background-color:rgba(255,255,255,0.3) ">
 			▶ NEVERLAND SHOP
 			</span>
+			</a>
 
 			
 			</div>
